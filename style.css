@@ -1,0 +1,27 @@
+:root {
+    --hauptfarbe: lightgray;
+}
+
+table {
+    width: 1000px;
+    border: 1px solid var(--hauptfarbe);
+}
+
+
+
+
+
+
+tr td:nth-child(3) {
+
+    text-align: end;
+}
+
+table tr:nth-child(odd) {
+    background: var(--hauptfarbe);
+}
+
+thead,
+th {
+    background-color: white;
+}
